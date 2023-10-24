@@ -1,5 +1,5 @@
 {
-  "name": "@minnozz/rescript-recharts",
+  "name": "rescript-recharts",
   "namespace": "recharts",
   "sources": [
     {
@@ -11,7 +11,7 @@
     "@rescript/react"
   ],
   "package-specs": {
-    "module": "commonjs",
+    "module": "es6",
     "in-source": true
   },
   "reason": {

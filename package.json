@@ -1,5 +1,5 @@
 {
-  "name": "@minnozz/rescript-recharts",
+  "name": "rescript-recharts",
   "version": "0.1.0",
   "scripts": {
     "build": "rescript build -with-deps",
@@ -8,15 +8,6 @@
     "refmt": "rescript format -all"
   },
   "description": "ReScript bindings for Recharts",
-  "homepage": "https://github.com/Minnozz/rescript-recharts#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Minnozz/rescript-recharts.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Minnozz/rescript-recharts/issues"
-  },
-  "author": "Bart Schuurmans <bart@minnozz.com>",
   "license": "MIT",
   "keywords": [
     "binding",
