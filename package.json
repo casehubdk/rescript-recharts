@@ -20,11 +20,11 @@
     "rescript"
   ],
   "devDependencies": {
-    "@rescript/react": "^0.11.0",
-    "rescript": "^10.1.4"
+    "@rescript/react": "^0.12.1",
+    "rescript": "^11.1.0"
   },
   "peerDependencies": {
-    "@rescript/react": "^0.11.0",
+    "@rescript/react": "^0.12.1",
     "recharts": "^2.1.16"
   }
 }

@@ -1,21 +1,24 @@
 {
   "name": "rescript-recharts",
   "namespace": "recharts",
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
   "sources": [
     {
       "dir": "src",
       "subdirs": true
     }
   ],
-  "bs-dependencies": [
-    "@rescript/react"
+  "package-specs": [
+    {
+      "module": "esmodule",
+      "in-source": true
+    }
   ],
-  "package-specs": {
-    "module": "es6",
-    "in-source": true
-  },
-  "reason": {
-    "react-jsx": 3
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
   },
   "suffix": ".bs.js"
 }
