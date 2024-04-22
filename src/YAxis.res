@@ -56,5 +56,3 @@ external make: (
   ~width: int=?,
   ~yAxisId: string=?,
 ) => React.element = "YAxis"
-
-let makeProps = (~interval=?) => makeProps(~interval=?interval->AxisInterval.encodeOpt)

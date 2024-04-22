@@ -1,17 +1,17 @@
 // http://recharts.org/en-US/api/Bar
 
+type animationEasing = 
+  | @as("ease") Ease
+  | @as("ease-in") EaseIn
+  | @as("ease-out") EaseOut
+  | @as("ease-in-out") EaseInOut
+  | @as("linear") Linear
+
 @module("recharts") @react.component
 external make: (
   ~animationBegin: int=?,
   ~animationDuration: int=?,
-  ~animationEasing: @string
-  [
-    | #ease
-    | @as("ease-in") #easeIn
-    | @as("ease-out") #easeOut
-    | @as("ease-in-out") #easeInOut
-    | #linear
-  ]=?,
+  ~animationEasing: animationEasing=?,
   ~background: 'background=?,
   ~barSize: int=?,
   ~className: string=?,

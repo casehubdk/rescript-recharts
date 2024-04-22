@@ -31,5 +31,3 @@ external make: (
   ~viewBox: {..}=?,
   ~wrapperStyle: {..}=?,
 ) => React.element = "Tooltip"
-
-let makeProps = (~cursor=?) => makeProps(~cursor=?cursor->TooltipCursor.encodeOpt)

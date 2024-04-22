@@ -12,6 +12,3 @@ external make: (
   ~width: PxOrPrc.t=?,
   ~children: React.element,
 ) => React.element = "ResponsiveContainer"
-
-let makeProps = (~height=?, ~width=?) =>
-  makeProps(~height=?height->PxOrPrc.encodeOpt, ~width=?width->PxOrPrc.encodeOpt)

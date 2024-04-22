@@ -54,11 +54,3 @@ external make: (
   ~stroke: string=?,
   ~children: React.element=?,
 ) => React.element = "Pie"
-
-let makeProps = (~cx=?, ~cy=?, ~innerRadius=?, ~outerRadius=?) =>
-  makeProps(
-    ~cx=?cx->PxOrPrc.encodeOpt,
-    ~cy=?cy->PxOrPrc.encodeOpt,
-    ~innerRadius=?innerRadius->PxOrPrc.encodeOpt,
-    ~outerRadius=?outerRadius->PxOrPrc.encodeOpt,
-  )

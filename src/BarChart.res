@@ -30,6 +30,3 @@ external make: (
   ~width: int=?,
   ~children: React.element,
 ) => React.element = "BarChart"
-
-let makeProps = (~barCategoryGap=?, ~barGap=?) =>
-  makeProps(~barCategoryGap=?barCategoryGap->PxOrPrc.encodeOpt, ~barGap=?barGap->PxOrPrc.encodeOpt)

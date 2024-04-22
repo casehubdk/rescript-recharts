@@ -57,5 +57,3 @@ external make: (
   ~width: int=?,
   ~xAxisId: string=?,
 ) => React.element = "XAxis"
-
-let makeProps = (~interval=?) => makeProps(~interval=?interval->AxisInterval.encodeOpt)
